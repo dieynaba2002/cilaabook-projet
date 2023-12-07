@@ -1,0 +1,13 @@
+.imgSlide{
+    border: 1px solid red;
+    /* height: 95vh; */
+}
+
+.imgSlide img{
+    height: 95vh !important;
+}
+
+.imgSlide{
+    height: 40%;
+}
+
