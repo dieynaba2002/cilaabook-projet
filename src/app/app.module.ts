@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './utilisateurs/accueil/accueil.component';
@@ -14,7 +13,6 @@ import { DetailsBlogComponent } from './utilisateurs/details-blog/details-blog.c
 import { ContactComponent } from './utilisateurs/contact/contact.component';
 import { ConditionUtilisationComponent } from './utilisateurs/condition-utilisation/condition-utilisation.component';
 import { PolitiqueConfidentialiteComponent } from './utilisateurs/politique-confidentialite/politique-confidentialite.component';
-import { DashboardAdminComponent } from './utilisateurs/dashboard-admin/dashboard-admin.component';
 import { DashboardBailleurComponent } from './bailleur/dashboard-bailleur/dashboard-bailleur.component';
 import { DashboardPorteurProjetComponent } from './porteur-projet/dashboard-porteur-projet/dashboard-porteur-projet.component';
 import { AjoutBlogComponent } from './admin/ajout-blog/ajout-blog.component';
@@ -22,7 +20,6 @@ import { AjoutBlogComponent } from './admin/ajout-blog/ajout-blog.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
     HeaderComponent,
     FooterComponent,
     AccueilComponent,
@@ -33,7 +30,6 @@ import { AjoutBlogComponent } from './admin/ajout-blog/ajout-blog.component';
     ContactComponent,
     ConditionUtilisationComponent,
     PolitiqueConfidentialiteComponent,
-    DashboardAdminComponent,
     DashboardBailleurComponent,
     DashboardPorteurProjetComponent,
     AjoutBlogComponent
