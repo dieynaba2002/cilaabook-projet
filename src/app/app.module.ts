@@ -16,11 +16,14 @@ import { PolitiqueConfidentialiteComponent } from './utilisateurs/politique-conf
 import { DashboardBailleurComponent } from './bailleur/dashboard-bailleur/dashboard-bailleur.component';
 import { DashboardPorteurProjetComponent } from './porteur-projet/dashboard-porteur-projet/dashboard-porteur-projet.component';
 import { AjoutBlogComponent } from './admin/ajout-blog/ajout-blog.component';
+import { LoginComponent } from './authentification/login/login.component';
+import { DashboardAdminComponent } from './admin/dashboard-admin/dashboard-admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    LoginComponent,
     FooterComponent,
     AccueilComponent,
     AproposComponent,
@@ -30,6 +33,7 @@ import { AjoutBlogComponent } from './admin/ajout-blog/ajout-blog.component';
     ContactComponent,
     ConditionUtilisationComponent,
     PolitiqueConfidentialiteComponent,
+    DashboardAdminComponent,
     DashboardBailleurComponent,
     DashboardPorteurProjetComponent,
     AjoutBlogComponent
