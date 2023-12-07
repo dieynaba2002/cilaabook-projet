@@ -17,6 +17,7 @@ import { PolitiqueConfidentialiteComponent } from './utilisateurs/politique-conf
 import { DashboardAdminComponent } from './utilisateurs/dashboard-admin/dashboard-admin.component';
 import { DashboardBailleurComponent } from './bailleur/dashboard-bailleur/dashboard-bailleur.component';
 import { DashboardPorteurProjetComponent } from './porteur-projet/dashboard-porteur-projet/dashboard-porteur-projet.component';
+import { AjoutBlogComponent } from './admin/ajout-blog/ajout-blog.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { DashboardPorteurProjetComponent } from './porteur-projet/dashboard-port
     PolitiqueConfidentialiteComponent,
     DashboardAdminComponent,
     DashboardBailleurComponent,
-    DashboardPorteurProjetComponent
+    DashboardPorteurProjetComponent,
+    AjoutBlogComponent
   ],
   imports: [
     BrowserModule,
